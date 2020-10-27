@@ -1,0 +1,340 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+/*My code */
+
+
+/*My code */
+
+
+
+body{
+    background-color: black;
+    text-decoration:none;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+    
+}
+
+ header div{
+    font-family:"verdana","gill sans";
+    font-size: 20px;
+   
+/*4 parameters:- top right bottom left      */
+   text-align: center;
+    
+
+}
+.header-branch{
+  line-height: 30pt;/* space between two lines */
+    width: 100%;
+    letter-spacing: .25em;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-variant: small-caps;
+   font-weight: 950;
+    color: #111;
+
+
+}
+
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+
+header nav ul{
+display: block;
+margin-right: 100pt;
+margin-left: 300pt;
+margin-top: 22pt;
+
+
+
+}
+
+
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+  padding-bottom: 10px;
+
+
+}
+
+
+
+header nav ul li a{
+      font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    padding:20px ;/*4 parameters:- top right bottom left      */
+     margin-left: 0%;
+    line-height: 15pt;/* space between two lines */
+    word-spacing: 1em;
+    letter-spacing: .25em;
+    text-decoration-line: none;
+   
+    font-variant: small-caps;
+   font-weight:1000;
+    color: #111;
+
+}
+header .header-songs{
+    display: none;
+
+}
+/*index*/
+
+
+
+
+
+
+.overflow{
+    overflow-x:hidden;
+  }
+
+.footer-main{
+  background-color: white;
+  background-position: center;
+  width: 60%;
+ 
+  margin: 10pt auto;
+  display: flex;
+
+
+}
+.footer-main ul{
+display:block;
+
+margin-left: 10pt;
+margin-top: 20pt;
+
+}
+.footer-main ul li{
+  text-decoration: none;
+  padding-bottom: 20pt;
+  list-style: none;
+
+    font-variant: small-caps;
+   font-weight: 800;
+    color: #111;
+  letter-spacing: .25em;
+
+
+
+
+  
+}
+
+.footer-main ul li a{
+ font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    /*4 parameters:- top right bottom left      */
+    /* space between two lines */
+    
+    letter-spacing: .25em;
+    text-decoration-line: none;
+   
+    font-variant: small-caps;
+   font-weight: 1000;
+    color: #111;
+ cursor: pointer;
+
+  
+}
+.fb{
+  width: 100%;
+  flex-basis: 50%;
+
+  margin: 0;
+  
+
+
+}
+.you{
+  width: 100%;
+    margin: 0;
+}
+
+.lin
+{
+  width: 100%;
+    margin: 0;
+}
+.img{
+  display: flex;
+ flex-flow: column wrap;
+ padding-left: 100px;
+ margin: 10px;
+ flex-basis: 3.7%;
+
+
+}
+.button2{
+     color:white;
+ cursor: pointer;
+ margin-top: 25px;
+ background-color: blue;
+
+border-radius: 5pt;
+ transition: all .5s;
+ font-size: 12px;
+ height: 20pt;
+ visibility:hidden;
+
+}
+
+.pagenot{
+  
+  color: white; 
+}
+.pagenot h1{
+  font-size: 35px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+.pagenot p{
+  font-size: 12px;
+  padding-bottom: 20px;
+  text-align: center;
+
+
+
+   font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    /*4 parameters:- top right bottom left      */
+    /* space between two lines */
+    
+    letter-spacing: .2em;
+
+    line-height: 13pt;
+   
+    font-variant: small-caps;
+
+
+
+
+
+}
+.pagenot p a{
+ color: red;
+ }
+
+
+
+
+
+
+

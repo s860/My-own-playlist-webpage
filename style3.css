@@ -1,0 +1,354 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+body {
+    line-height:1;
+    text-decoration: none;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+/*My code */
+
+
+/*My code */
+
+body{
+
+    background-color: black;
+   text-decoration:none;
+   text-decoration-line: none;
+
+
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.slow-banner{
+    font-family:"verdana","gill sans";
+    font-size: 28px;    
+       
+    padding:20px 0px 20px 0px ;/*4 parameters:- top right bottom left      */
+    margin:300px 400px; 
+    line-height: 40pt;/* space between two lines */
+    width: 100%;
+    letter-spacing: .25em;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-variant: small-caps;
+   font-weight: 1000;
+    color: #111;
+    
+
+}
+
+header nav ul{
+    display: block;
+    margin: 0pt 100pt 0pt;
+    width:100%;
+ 
+
+} 
+header nav ul li{
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+    list-style:none;
+    margin:20pt 300pt 5pt 100pt; 
+
+    padding: 0px 0px;
+}
+header nav ul li a{
+    font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    padding:10px 20px 10px ;/*4 parameters:- top right bottom left      */
+     margin-left: 0%;
+    line-height: 15pt;/* space between two lines */
+    word-spacing: 1em;
+    letter-spacing: .15em;
+    text-decoration-line: none;
+   font-size: 19px;
+    font-variant: small-caps;
+   font-weight: 1000;
+    color: #111;
+   
+}
+header nav ul li a:hover{
+    color:purple;
+}
+main{
+     background-color: white;
+    width: 100%;
+    height:100%;
+}
+.main-banner{
+    width:100%;
+    height:100vh;
+    background-image: url('img5.jpg');
+   overflow-x: hidden;
+    color: #111;
+    border-image-width: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-decoration-line: none;
+
+
+  
+
+}
+main  nav ol{
+      display: block;
+    margin: 0pt 150pt 1pt;
+    width:100%;
+    text-decoration: none;
+
+
+}
+main nav ol table{
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+    list-style:none;
+    margin:10pt 300pt 0pt 30pt; 
+    text-decoration: none;
+
+    padding: 10px 40px 0pt 10px;
+     
+
+}
+main nav ol table tr td{
+    width:50%;
+}
+main nav ol table tr td a{
+      font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    padding:1px 45px 1px 40px ;/*4 parameters:- top right bottom left      */
+     margin-left: 0%;
+     text-decoration: none;
+     text-decoration-line: none;
+    line-height: 50pt;/* space between two lines */
+    word-spacing: .5em;
+    letter-spacing: .15em;
+ 
+    
+   font-size: 20px;
+
+    font-variant: small-caps;
+   font-weight: 1000;
+      text-decoration:none;
+      color:brown;
+
+    
+   
+
+}
+main nav ol table tr td a:hover
+{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+
+}
+
+.button1{
+    color: black;
+ cursor: pointer;
+margin: 0px 0px;
+border-radius: 5pt;
+ transition: all .5s;  
+    
+
+}
+.button1: hover{
+    color:black;
+}
+
+
+
+
+.footer-main{
+  background-color: white;
+  background-position: center;
+  width: 60%;
+ 
+  margin: 10pt auto;
+  display: flex;
+}
+
+.footer-main ul{
+display:block;
+
+margin-left: 10pt;
+margin-top: 20pt;
+}
+
+.footer-main ul li{
+  text-decoration: none;
+  padding-bottom: 20pt;
+  list-style: none;
+
+    font-variant: small-caps;
+   font-weight: 800;
+    color: #111;
+  letter-spacing: .25em;
+}
+
+
+.footer-main ul li a{
+ font-family:"verdana","gill sans";
+     /* 3 parameters:- size type color ; types of border :-solid dashed dotted ridge double groove inset outset*/
+    /*4 parameters:- top right bottom left      */
+    /* space between two lines */
+    
+    letter-spacing: .25em;
+    text-decoration-line: none;
+   
+    font-variant: small-caps;
+   font-weight: 1000;
+    color: #111;
+ cursor: pointer;
+
+  
+}
+.fb{
+  width: 100%;
+  flex-basis: 50%;
+
+  margin: 0;
+  
+
+
+}
+.you{
+  width: 100%;
+    margin: 0;
+}
+
+.lin
+{
+  width: 100%;
+    margin: 0;
+}
+.img{
+  display: flex;
+ flex-flow: column wrap;
+ padding-left: 100px;
+ margin: 10px;
+ flex-basis: 3.7%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

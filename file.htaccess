@@ -1,0 +1,16 @@
+ErrorDocument 404 /404notfound.html
+# mod_rewrite starts here
+
+RewriteEngine on 
+
+# does not apply to existingg directories, meaning that is the folder exist on the  server then dont change anything and dont run the Rule!
+
+RewriteCond%{ReQUEST-FILENAME} !-d
+
+# Check for file in the directory with.html extension
+
+RewriteCond%{REQUEST_FILENAME}\.html -f
+
+# Here we actually show the page that has the .htmlextension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
